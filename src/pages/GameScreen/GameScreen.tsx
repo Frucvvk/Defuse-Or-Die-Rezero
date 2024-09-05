@@ -9,16 +9,17 @@ type Probs = {
 function GameScreen({ onEnd }: Probs) {
   return (
     <>
+      <div className="menu-button">
+        <span className="line"></span>
+        <span className="line"></span>
+        <span className="line"></span>
+      </div>
+
       <div className="big-container">
         <div className="rectangle"> </div>
         <div className="rectangle"> </div>
         <div className="box rectangle_wire"> </div>
 
-        <div className="menu-button">
-          <span className="line"></span>
-          <span className="line"></span>
-          <span className="line"></span>
-        </div>
 
         <div className="container">
           <div className="left">

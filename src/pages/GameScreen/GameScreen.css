@@ -243,33 +243,36 @@ body::before {
 
 /* Menu Button Styles */
 .menu-button {
-  position: absolute;
-  top: 20px; /* Adjust as needed */
-  left: 20px; /* Adjust as needed */
-  width: 50px; /* Width of the square button */
-  height: 50px; /* Height of the square button */
+  position: fixed; /* Fixed positioning to stay in place relative to the viewport */
+  top: 20px; /* Adjust vertical position */
+  right: 20px; /* Adjust horizontal position */
+  width: 50px; /* Width of the button */
+  height: 50px; /* Height of the button */
+  background-color: #6c6c6c; /* Background color of the button */
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #333; /* Background color of the button */
-  border-radius: 8px; /* Optional: rounded corners for a softer look */
-  cursor: pointer; /* Shows a pointer cursor on hover */
-  z-index: 20; /* Ensure it is on top of other elements */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  position: relative; /* To position the lines absolutely inside */
 }
 
 .menu-button .line {
-  width: 30px; /* Width of each line */
+  position: absolute; /* Absolute positioning for individual lines */
+  width: 35px; /* Width of each line */
   height: 4px; /* Thickness of each line */
   background-color: #fff; /* Color of the lines */
   border-radius: 2px; /* Slightly rounded edges for the lines */
 }
 
-/* Optional: Add a hover effect */
-.menu-button:hover {
-  background-color: #444; /* Change background color on hover */
+.menu-button .line:nth-child(1) {
+  top: 9px; /* Position of the first line from the top */
 }
 
-.menu-button:hover .line {
-  background-color: #ddd; /* Change line color on hover */
+.menu-button .line:nth-child(2) {
+  top: 21px; /* Position of the second line from the top */
+}
+
+.menu-button .line:nth-child(3) {
+  top: 34px; /* Position of the third line from the top */
 }

@@ -15,7 +15,7 @@
   padding: 20px;
   gap: 20px;
   border: 5px solid black;
-  background: radial-gradient(circle at center, #4d4d4d, #424242);
+  background: radial-gradient(circle at center, #4d4d4d, #424242); /* bg */
   border: 5px solid #333; /* Darker border */
   
   background-repeat: no-repeat;
@@ -222,4 +222,21 @@
     width: 250px;
     margin: 20px auto;
     background: radial-gradient(circle at center, #5a5a5a, #272727);    position: relative;
+}
+
+body {
+  position: relative; /* Ensure proper layering */
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1; /* Make sure it stays behind the content */
+  background: linear-gradient(to bottom, darkgreen, transparent);
+  filter: blur(5px); /* Apply blur to background only */
+  transform: scale(1.1); /* Slightly enlarge the background to account for blur */
 }

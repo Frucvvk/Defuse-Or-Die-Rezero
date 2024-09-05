@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import './HomeScreen.css'; // Add this line to import the CSS file
 
 type Props = {
   onStart: () => void;
@@ -7,12 +8,19 @@ type Props = {
 function HomeScreen({ onStart }: Props) {
   return (
     <div className="home-screen">
-      <h1>Defuse the Bomb!</h1>
-      <Link to="/game"> {/* Add the 'to' prop to specify the navigation target */}
-        <button onClick={onStart}>Start Game</button>
-      </Link>
+      <h1 className="title">Defuse Or Die</h1>
+      <div className="button-container">
+        <Link to="/game">
+          <button className="play-button" onClick={onStart}>PLAY GAME</button>
+        </Link>
+        <Link to="/manual">
+          <button className="manual-button">
+            MANUAL <span className="download-icon">⬇</span>
+          </button>
+        </Link>
+      </div>
     </div>
   );
-};
+}
 
 export default HomeScreen;

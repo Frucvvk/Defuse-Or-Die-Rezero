@@ -9,11 +9,10 @@
 .container {
   display: flex;
   position: relative;
-  top:50px;
-  height: 750px;
+  height: 630px;
   width: 1300px;
-  padding: 20px;
-  gap: 20px;
+  padding: 15px;
+  gap: 15px;
   border: 5px solid black;
   background: radial-gradient(circle at center, #4d4d4d, #424242);
   border: 5px solid #333; /* Darker border */
@@ -24,26 +23,30 @@
 }
 
 .big-container {
+  top:0;
   display: flex;
   position: relative;
-  height: 8500px;
+  height: 640px;
   width: 1300px;
 }
 
+.box{
+  border: 1px solid magenta;
+}
 /* Left Section */
 .left {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 170px;
+  width: 160px;
 }
 
 .left .fuse {
-  height: 430px;
+  height: 370px;
   border: 2px solid #b5b5b5; /* Purple */
 }
 .left .switch {
-  height: 170px;
+  height: 160px;
   border: 2px solid #1d1d1d; /* Purple */
 }
 .left .fuse, .left .switch {
@@ -52,10 +55,10 @@
 }
 .rectangle{
   position: absolute;
-  top: 25px;
-  left: 210px;
+  top: -20px;
+  left: 190px;
   width: 80px;
-  height: 800px;
+  height: 670px;
   background-color: #1c1c1c; /* Darker overlay color */
   border: 2px solid #444; /* Dark border */
   pointer-events: none; /* Ensures the overlay doesn't interfere with other elements */
@@ -66,17 +69,17 @@
   position: flex;
 
   width: 70px;
-  height: 800px;
+  height: 670px;
   background-color: transparent;
   pointer-events: none; /* Ensures the overlay doesn't interfere with other elements */
   z-index: 10; /* Make sure it appears on top */
 }
 .rectangle:nth-child(1){
   position: absolute;
-  top: 25px;
+  top: -20px;
   left: 930px;
   width: 80px;
-  height: 800px;
+  height: 670px;
   background-color: #1c1c1c; /* Darker overlay color */
   border: 2px solid #444; /* Dark border */
   pointer-events: none; /* Ensures the overlay doesn't interfere with other elements */
@@ -85,9 +88,9 @@
 
 .rectangle_wire{
   position: absolute;
-  top: 358px;
-  left: 125px;
-  width: 230px;
+  top: 255px;
+  left: 120px;
+  width: 215px;
   height: 78px;
   pointer-events: none; /* Ensures the overlay doesn't interfere with other elements */
   z-index: 10; /* Make sure it appears on top */
@@ -100,7 +103,7 @@
   position: flex;
 
   width: 70px;
-  height: 800px;
+  height: 670px;
   background-color: transparent;
   pointer-events: none; /* Ensures the overlay doesn't interfere with other elements */
   z-index: 10; /* Make sure it appears on top */
@@ -118,21 +121,21 @@
 
 .center .time-container {
   display: flex;
-  width:400px;
+  width:407px;
   flex-wrap: wrap;
   gap:10px;
-  height: 150px;
+  height: 140px;
 
 }
 .center .time {
   display: flex;
   width:400px;
-  height: 130px;
+  height: 120px;
 
 }
 .center .button {
   display:flex;
-  width: 180px;
+  width: 200px;
   height: 180px;
 
 }
@@ -140,19 +143,19 @@
   display: flex;
   
   width:200px;
-  height: 50px;
+  height: 40px;
 
 }
 .center .buttonstatus {
   display: flex;
   width:180px;
-  height: 30px;
+  height: 25px;
 
 }
 .center .middle{
   display: flex;
-  height: 470px;
-  width: 600px;
+  height: 400px;
+  width: 640px;
   gap: 15px;
   flex-direction: row;
   flex-wrap: wrap;
@@ -163,11 +166,11 @@
   flex-direction: column;
   gap:10px;
   height: 504px;
-  width: 230px;
+  width: 250px;
 }
 .center .circuit{
     width: 230px;
-    height: 380px;
+    height: 330px;
     position: relative;
     background: linear-gradient(145deg, #263d2b, #1a2e1d); /* Darker gradient background */
     box-shadow: inset 0 0 15px #0f1a11; /* Stronger inner shadow */
@@ -175,7 +178,7 @@
 }
 .center .numpad{
   display: flex;
-  height: 445px;
+  height: 390px;
   width: 350px;
   display: flex;
   justify-content: center;
@@ -186,7 +189,7 @@
 }
 .center .serialnumber{
   display: flex;
-  height: 50px;
+  height: 40px;
   width: 230px;
 }
 

@@ -1,0 +1,223 @@
+.line{
+    position: absolute;
+    border: 3px solid #2a5e36; 
+    background-color: #2a5e36;
+    z-index: 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+}
+
+.hor{
+    width: 75px;
+    height: 13px;
+}
+
+.hor.line1{
+    top: 45px;
+    left: 145px;
+}
+
+.hor.line2{
+    top: 70px;
+    left: 145px;
+}
+
+.hor.line3{
+    top: 95px;
+    left: 145px;
+}
+
+.hor.line4{
+    top: 120px;
+    left: 145px;
+}
+
+.hor.line5{
+    top: 145px;
+    left: 145px;
+}
+
+.ver{
+    width: 4px;
+    height:55px;
+}
+
+.ver.line6{
+    top: 195px;
+    left: 125px;
+}
+
+.ver.line7{
+    top: 195px;
+    left: 140px;
+}
+
+.ver.line8{
+    top: 195px;
+    left: 155px;
+}
+
+.ver.line9{
+    top: 195px;
+    left: 170px;
+}
+
+.ver.line10{
+    top: 195px;
+    left: 185px;
+}
+
+.ver.line11{
+    top: 195px;
+    left: 200px;
+}
+
+.chip1{
+    width: 80px;
+    height: 15px;
+}
+
+.chip1.line12{
+    top: 310px;
+    left: 130px;
+}
+
+.chip1.line13{
+    top: 285px;
+    left: 130px;
+}
+
+.chip2{
+    width: 15px;
+    height: 80px;
+}
+
+.chip2.line14{
+    top: 265px;
+    left: 148px;
+}
+
+.chip2.line15{
+    top: 265px;
+    left: 175px;
+}
+
+.com {
+    position: absolute;
+    border: 3px solid #19341f;
+    transition: opacity 0.3s, transform 0.3s; /* Smooth transition for hover and active */
+    background: linear-gradient(to bottom, #747473, #565656); /* Gradient for components */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Drop shadow for components */
+}
+
+.com:hover {
+    opacity: 0.7;
+}
+
+.com:active {
+    opacity: 0.5;
+    transform: scale(0.95); /* Slightly shrink on active */
+}
+
+.hor, .ver, .chip1, .chip2 {
+    background: linear-gradient(to right, #999999, #666666); /* Gradient for lines */
+}
+
+/* Transistors */
+.transister_brown {
+    width: 100px;
+    height: 60px;
+    top: 300px;
+    left: 15px;
+    background: linear-gradient(to bottom, #b29a4b, #8a7a35); /* Gradient for transistor */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Drop shadow */
+}
+
+.transister_black {
+    width: 60px;
+    height: 100px;
+    top: 15px;
+    left: 15px;
+    background: linear-gradient(to right, #232323, #141414); /* Gradient for transistor */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.transister_gray {
+    width: 70px;
+    height: 70px;
+    top: 270px;
+    left: 135px;
+    background: linear-gradient(to bottom, #769759, #5b7544); /* Gradient for transistor */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.transister_blue {
+    width: 20px;
+    height: 120px;
+    top: 40px;
+    left: 110px;
+    background: linear-gradient(to bottom, #3f6b95, #2b4d6a); /* Gradient for transistor */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Resistors */
+.resister1 {
+    width: 18px;
+    height: 60px;
+    top: 135px;
+    left: 80px;
+    background: linear-gradient(to bottom, #cb1f1f, #8b1515); /* Gradient for resistor */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.resister2 {
+    width: 18px;
+    height: 60px;
+    top: 214px;
+    left: 80px;
+    background: linear-gradient(to bottom, #FFD700, #c5a200); /* Gold color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Capacitors */
+.com_capaciter {
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: 5px solid #353535; /* Dark green border */
+    background: linear-gradient(to bottom, #747473, #565656); /* Gradient for capacitor */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.com1 {
+    top: 240px;
+    left: 15px;
+}
+
+.com2 {
+    top: 185px;
+    left: 15px;
+}
+
+.com3 {
+    top: 130px;
+    left: 15px;
+}
+
+/* Chips */
+.chip-big {
+    width: 65px;
+    height: 150px;
+    top: 25px;
+    left: 150px;
+    background: linear-gradient(to bottom, #464847, #333); /* Gradient for chip */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.chip-small {
+    width: 100px;
+    height: 45px;
+    top: 200px;
+    left: 115px;
+    background: linear-gradient(to bottom, #464847, #333); /* Gradient for chip */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}

@@ -1,0 +1,8 @@
+.mybattery{
+    width: 24%; /* Width of each box */
+    height: 75%; /* Height of each box */
+    background: radial-gradient(circle at center , #850000, #5f0000); /* Gradient background */
+    box-shadow: inset 1px 1px 15px rgba(0, 0, 0, 0.5), 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    z-index: 10;
+    border-radius: 20%;
+}

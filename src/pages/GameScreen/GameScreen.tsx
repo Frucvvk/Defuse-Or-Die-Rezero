@@ -33,18 +33,18 @@ function GameScreen({ onEnd }: Probs) {
                 <p></p>
                 <div className="middle">
                     <div className="circuitmain">
-                        <div className="box circuit"><CircuitPanel /></div>
+                        <div className="box circuit"></div>
                         <div className="box serialnumber"></div>
                     </div>
-                    <div className="box numpad"><NumPad /></div>
+                    <div className="box numpad"></div>
                 </div>
             </div>
                 
             <div className="invi-rectangle"></div>
             
             <div className="right">
-                <div className="wire"><Wire /></div>
-                <div className="battery"><Battery /></div>
+                <div className="wire"></div>
+                <div className="battery"></div>
             </div>
         </div>
     </div>

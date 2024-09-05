@@ -3,8 +3,8 @@ import { useState } from "react";
 // Assuming you have these components defined and imported correctly
 import HomeScreen from "./HameScreen/HomeScreen";
 import GameScreen from "./GameScreen/GameScreen";
-import ResultScreen from "./ResultScreen/ResultScreen";
 import { Route, Routes } from "react-router-dom";
+import ResultScreen from "./ResultScreen/ResultScreen";
 
 const MainPage = () => {
   const [gameState, setGameState] = useState<'home' | 'playing' | 'result'>('home');

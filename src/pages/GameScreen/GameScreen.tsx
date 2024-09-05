@@ -1,8 +1,7 @@
-
-import Battery from '../module/Battery/Battery'
-import CircuitPanel from '../module/circuitPanel/CircuitPanel'
-import NumPad from '../module/NumPad/Numpad'
-import Wire from '../module/Wire/Wire'
+import Battery from '../../module/Battery/Battery'
+import CircuitPanel from '../../module/circuitPanel/CircuitPanel'
+import Wire from '../../module/Wire/Wire'
+import NumPad from '../../module/NumPad/Numpad'
 import './GameScreen.css'
 type Probs = {
   onEnd: (outcome: 'win' | 'lose') => void

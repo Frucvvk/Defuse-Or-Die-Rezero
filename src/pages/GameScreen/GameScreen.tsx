@@ -14,41 +14,46 @@ function GameScreen({ onEnd }: Probs) {
         <div className="rectangle"> </div>
         <div className="box rectangle_wire"> </div>
 
+        <div className="menu-button">
+          <span className="line"></span>
+          <span className="line"></span>
+          <span className="line"></span>
+        </div>
 
         <div className="container">
-            <div className="left">
-                <div className="switch"></div>
-                <div className="fuse"></div>
-            </div>
+          <div className="left">
+            <div className="switch"></div>
+            <div className="fuse"></div>
+          </div>
 
-            <div className="invi-rectangle"></div>
-        
-            <div className="center">
-                <div className="time-container">
-                    <div className="box time"></div>
-                    <div className="box code"></div>
-                    <div className="box buttonstatus"></div>
-                </div>
-                <div className="box button"></div>
-                <p></p>
-                <div className="middle">
-                    <div className="circuitmain">
-                        <div className="box circuit"><CircuitPanel /></div>
-                        <div className="box serialnumber"></div>
-                    </div>
-                    <div className="box numpad"><NumPad /></div>
-                </div>
+          <div className="invi-rectangle"></div>
+
+          <div className="center">
+            <div className="time-container">
+              <div className="box time"></div>
+              <div className="box code"></div>
+              <div className="box buttonstatus"></div>
             </div>
-                
-            <div className="invi-rectangle"></div>
-            
-            <div className="right">
-                <div className="wire"><Wire /></div>
-                <div className="battery"><Battery /></div>
+            <div className="box button"></div>
+            <p></p>
+            <div className="middle">
+              <div className="circuitmain">
+                <div className="box circuit"><CircuitPanel /></div>
+                <div className="box serialnumber"></div>
+              </div>
+              <div className="box numpad"><NumPad /></div>
             </div>
+          </div>
+
+          <div className="invi-rectangle"></div>
+
+          <div className="right">
+            <div className="wire"><Wire /></div>
+            <div className="battery"><Battery /></div>
+          </div>
         </div>
-    </div>
-      
+      </div>
+
     </>
   )
 }

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import './HomeScreen.css'; // Add this line to import the CSS file
+import './HomeScreen.css'; // Ensure to import the CSS
 
 type Props = {
   onStart: () => void;
@@ -13,11 +13,17 @@ function HomeScreen({ onStart }: Props) {
         <Link to="/game">
           <button className="play-button" onClick={onStart}>PLAY GAME</button>
         </Link>
-        <Link to="/manual">
-          <button className="manual-button">
-            MANUAL <span className="download-icon">⬇</span>
-          </button>
-        </Link>
+
+        <div className="manual-buttons">
+          <Link to="/manual">
+            <button className="manual-button">MANUAL</button>
+          </Link>
+          <a href="/manual.pdf" download>
+            <button className="download-button">
+              <img src="/download-icon.png" alt="Download" className="download-image" />
+            </button>
+          </a>
+        </div>
       </div>
     </div>
   );

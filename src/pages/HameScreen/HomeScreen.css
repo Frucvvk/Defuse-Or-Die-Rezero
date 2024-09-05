@@ -1,30 +1,42 @@
+.button-container a {
+    text-decoration: none;
+  }
+
 .home-screen {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: 100vh;
     background-color: #fff;
     font-family: Arial, sans-serif;
+    padding-top: 50px; /* Add padding to move the content higher */
   }
   
   .title {
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: bold;
-    margin-bottom: 15rem;
+    margin-bottom: 4rem;
     color: #000;
+    margin-top: -200px; /* Adjust the top margin to move the title up */
   }
   
   .button-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1.5rem; /* Increases spacing between buttons */
+    gap: 1.5rem;
+  }  
+  
+  .manual-buttons {
+    display: flex;
+    align-items: center;
+    gap: 1rem; /* Space between the MANUAL and download button */
   }
   
   button {
     border: 2px solid #000;
-    border-radius: 25px;
+    border-radius: 20px;
     padding: 1rem 2rem;
     font-size: 1.25rem;
     font-weight: bold;
@@ -35,7 +47,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 250px; /* Increases the button width */
   }
   
   button:hover {
@@ -43,21 +54,30 @@
   }
   
   .play-button {
-    width: 250px; /* Matches the width of the manual button */
+    width: 250px;
   }
   
   .manual-button {
-    width: 250px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    padding: 1rem 2rem;
   }
   
-  .download-icon {
-    margin-left: 0.5rem;
-    font-size: 1.5rem;
-    vertical-align: middle;
-    display: inline-block;
+  .download-button {
+    border: 2px solid #000;
+    border-radius: 30%; /* Makes the button round */
+    width: 60px;  /* Ensure the width and height are equal */
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 0; /* Remove any padding to ensure the button stays round */
+    background-color: #fff; /* Make sure there's no background distortion */
+  }
+  
+  .download-image {
+    width: 60%; /* Make the image fit within the button */
+    height: 60%;
+    object-fit: contain;
   }
   
   /* Optional: Responsive adjustments */
@@ -66,10 +86,8 @@
       font-size: 2rem;
     }
   
-    button {
+    .play-button, .manual-button, .download-button {
       width: 200px;
-      padding: 0.75rem 1.5rem;
-      font-size: 1rem;
     }
   }
   

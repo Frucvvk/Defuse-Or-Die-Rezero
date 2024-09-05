@@ -5,9 +5,9 @@ import './App.css'
 function App() {
   return (
     <>
-    <BrowserRouter>
-      <MainPage></MainPage>
-    </BrowserRouter>
+      <BrowserRouter>
+        <MainPage></MainPage>
+      </BrowserRouter>
     </>
   )
 }

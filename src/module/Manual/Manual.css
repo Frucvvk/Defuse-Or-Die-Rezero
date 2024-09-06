@@ -6,7 +6,10 @@
   height: 4vw; /* Height of the button */
   background-color: #6c6c6c;
   background-image: url("paper.png");
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: 4vw 3.7vw;
+  border: none;
   border-radius: 8px; /* Rounded corners */
   cursor: pointer; /* Pointer cursor on hover */
   display: flex;

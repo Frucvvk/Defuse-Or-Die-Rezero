@@ -18,7 +18,7 @@ function HomeScreen({ onStart }: Props) {
           <Link to="/manual">
             <button className="manual-button">MANUAL</button>
           </Link>
-          <a href="/manual.pdf" download>
+          <a href="/MANUAL.pdf" download>
             <button className="download-button">
               <img src="/download-icon.png" alt="Download" className="download-image" />
             </button>

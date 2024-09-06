@@ -5,11 +5,13 @@
   width: 4vw; /* Width of the button */
   height: 4vw; /* Height of the button */
   background-color: #6c6c6c; /* Background color of the button */
+  background-image: url("menus.png");
+  background-size: 3vw 3vw;
+  background-repeat: no-repeat;
+  background-position: center;
   border-radius: 8px; /* Rounded corners */
   cursor: pointer; /* Pointer cursor on hover */
   display: flex;
-  justify-content: center; /* Center content horizontally */
-  align-items: center; /* Center content vertically */
   z-index: 1000;
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
@@ -18,31 +20,6 @@
   background-color: #565656; /* Darker background on hover */
   transform: scale(1.05); /* Slightly enlarge the button */
 }
-
-.menu-button .line {
-  position: absolute; /* Absolute positioning for individual lines */
-  width: 5vh; /* Width of each line */
-  height: 0.7vh; /* Thickness of each line */
-  background-color: #fff; /* Color of the lines */
-  border-radius: 3px; /* Slightly rounded edges for the lines */
-  z-index: 1001;
-}
-
-.menu-button .line:nth-child(1) {
-  top: 1.2vh; /* Position of the first line from the top */
-  z-index: 1001;
-}
-
-.menu-button .line:nth-child(2) {
-  top: 3vh; /* Position of the second line from the top */
-  z-index: 1001;
-}
-
-.menu-button .line:nth-child(3) {
-  top: 4.8vh; /* Position of the third line from the top */
-  z-index: 1001;
-}
-
 
 /* Blur effect for bomb game when menu is active */
 .blur-background {

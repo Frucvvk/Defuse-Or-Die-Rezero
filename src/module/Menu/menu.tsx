@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import './menu.css'
 
 const Menu: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -33,24 +34,17 @@ const Menu: React.FC = () => {
     <>
       {/* Game content */}
       <div className={`game-content ${isMenuOpen ? 'blur-background' : ''}`}>
-        <div onClick={handleMenuClick} className="menu-button">
-        <span className="line"></span>
-        <span className="line"></span>
-        <span className="line"></span>
-      </div>
+        <div className="menu-button" onClick={handleMenuClick}></div>
       </div>
       {/* Modal */}
       {isMenuOpen && (
         <div className="modal-overlay">
           <div className="modal">
             <h2>Menu</h2>
-            <button 
-            className="resume" onClick={handleResume}>Resume</button>         
-            <button     
-            className="restart" onClick={handleRestart}>Restart</button>
+            <button className="resume" onClick={handleResume}>Resume</button>         
+            <button className="restart" onClick={handleRestart}>Restart</button>
             <Link to="/HomeScreen">
-            <button 
-            className="menu"  onClick={handleMainMenu}>Main Menu</button>
+            <button className="menu" onClick={handleMainMenu}>Main Menu</button>
             </Link>
           </div>
         </div>

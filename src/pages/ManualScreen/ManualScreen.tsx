@@ -59,7 +59,7 @@ function ManualScreen() {
     <br />
     20. SN.15-00-01-3A 
     <br />
-  </>,<><strong>Code 1</strong>: 
+  </><><strong>Code 1</strong>: 
 <li>Press the Big Button once.</li>
 <strong>Code 3</strong>:
 <li>Pull out com_capacitor1.</li>
@@ -81,7 +81,7 @@ function ManualScreen() {
 <strong>Code 59</strong>:
 <li>Pull out com_transistor_brown.</li>
 <li>Turn off Switch Button 2.</li>
-</>,<><strong>Code 78:</strong>
+</><><strong>Code 78:</strong>
 <li>Enter "0106" on the Keypad.</li>
 <li>Press the Big Button once.</li>
 <strong>Code 93:</strong>
@@ -103,7 +103,7 @@ function ManualScreen() {
 <li>Enter "2547" on the Keypad.</li>
 <li>Pull out com_transistor_black.</li>
 <li>Press the Big Button once.</li>
-</>,<><strong>Code 823:</strong>
+</><><strong>Code 823:</strong>
 <li>If PASS status has 4 green lights, press the Big Button once. If not Enter ”8462” and press the Big button three times</li>
 <li>Pull out chip-small.</li>
 <li>Switch on Switch Button 1.</li>
@@ -127,7 +127,7 @@ function ManualScreen() {
 <li>Pull out chip-big.</li>
 <li>Turn off Switch Button 1.</li>
 <li>Press the Big Button twice.</li>
-</>,<>
+</><>
 <strong>Code 8796:</strong>
 <li>Pull out com_resistor1.</li>
 <li>Press the Big Button three times.</li>

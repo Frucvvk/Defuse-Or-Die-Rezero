@@ -24,7 +24,6 @@ const MainPage = () => {
       <Route path="/game" element={<GameScreen onEnd={endGame} />} />
       <Route path="/result" element={result && <ResultScreen result={result} onRestart={() => setGameState('home')} />} />
       <Route path="/manual" element={<ManualScreen />} />
-
       <Route path="*" element={<HomeScreen onStart={startGame} />} />
     </Routes>
   );

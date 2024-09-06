@@ -1,0 +1,95 @@
+.button-container a {
+    text-decoration: none;
+  }
+
+.home-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .title {
+    font-size: 5rem;
+    font-weight: bold;
+    color: #000;
+    margin-top: -200px; /* Adjust the top margin to move the title up */
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }  
+  
+  .manual-buttons {
+    display: flex;
+    align-items: center;
+    gap: 1rem; /* Space between the MANUAL and download button */
+  }
+  
+  button {
+    border: 2px solid #000;
+    border-radius: 20px;
+    padding: 1rem 2rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease, transform 0.3s ease
+  }
+  
+  button:hover {
+    background-color: #cacaca;
+    transform: scale(1.05);
+  }
+  
+  .play-button {
+    width: 250px;
+    box-shadow: inset 0 0 12px #0f1a11;
+  }
+  
+  .manual-button {
+    padding: 1rem 2rem;
+    box-shadow: inset 0 0 12px #0f1a11;
+  }
+  
+  .download-button {
+    border: 2px solid #000;
+    border-radius: 30%; /* Makes the button round */
+    width: 60px;  /* Ensure the width and height are equal */
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 0; /* Remove any padding to ensure the button stays round */
+    background-color: #fff; /* Make sure there's no background distortion */
+    box-shadow: inset 0 0 12px #0f1a11;
+  }
+  
+  .download-image {
+    width: 60%; /* Make the image fit within the button */
+    height: 60%;
+    object-fit: contain;
+  }
+  
+  /* Optional: Responsive adjustments */
+  @media (max-width: 768px) {
+    .title {
+      font-size: 2rem;
+    }
+  
+    .play-button, .manual-button, .download-button {
+      width: 200px;
+    }
+  }
+  

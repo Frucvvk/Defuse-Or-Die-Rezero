@@ -4,7 +4,6 @@ import Wire from '../../module/Wire/Wire'
 import NumPad from '../../module/NumPad/Numpad'
 import './GameScreen.css'
 import Menu from '../../module/Menu/menu'
-import { useState } from 'react'
 import Manual from '../../module/Manual/Manual'
 type Probs = {
   onEnd: (outcome: 'win' | 'lose') => void

@@ -8,6 +8,8 @@ import Switch from '../module/swith/Switch'
 import Timer from '../module/Timer/Timer'
 import Wire from '../module/Wire/Wire'
 import './GameScreen.css'
+import Menu from '../module/Menu/menu'
+import Manual from '../module/Manual/Manual'
 
 type Probs = {
   onEnd: (outcome: 'win' | 'lose') => void
@@ -15,6 +17,9 @@ type Probs = {
 function GameScreen({ onEnd }: Probs) {
   return (
     <>
+      <div className="very-large-container">
+      <Menu/>
+      <Manual/>
       <div className="big-container">
         <div className="rectangle"> </div>
         <div className="rectangle"> </div>
@@ -51,6 +56,7 @@ function GameScreen({ onEnd }: Probs) {
                 <div className="battery"><Battery /></div>
             </div>
         </div>
+    </div>
     </div>
     </>
   )

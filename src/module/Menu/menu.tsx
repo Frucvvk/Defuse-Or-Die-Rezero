@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate} from 'react-router-dom';
 import './menu.css'
 
 const Menu: React.FC = () => {
+   const navigate = useNavigate();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const handleMenuClick = () => {
@@ -21,7 +22,9 @@ const Menu: React.FC = () => {
   const handleRestart = () => {
     // Logic to restart the game
     console.log("Game Restarted!");
-    setIsMenuOpen(false);
+
+    // After restarting the game, navigate to the "/game" path
+    navigate("/game");
   };
 
   const handleMainMenu = () => {
@@ -41,7 +44,8 @@ const Menu: React.FC = () => {
           <div className="modal">
           <h2 style={{ fontSize: '50px', fontWeight: 'bold', marginTop: '15px' }}>Menu</h2>
             <button 
-            className="resume" onClick={handleResume}>Resume</button>         
+            className="resume" onClick={handleResume}>Resume</button>
+             
             <button     
             className="restart" onClick={handleRestart}>Restart</button>
             <Link to="/HomeScreen">

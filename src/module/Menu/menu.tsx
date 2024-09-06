@@ -43,7 +43,7 @@ const Menu: React.FC = () => {
       {isMenuOpen && (
         <div className="modal-overlay">
           <div className="modal">
-            <h2>Menu</h2>
+          <h2 style={{ fontSize: '50px', fontWeight: 'bold', marginTop: '15px' }}>Menu</h2>
             <button 
             className="resume" onClick={handleResume}>Resume</button>         
             <button     

@@ -101,7 +101,7 @@
 }
 
 .restart{
-  width: 7vw;
+  width: 7vw;  
   height: 5vh;
   background-color: #0f1a11;
   transition: background-color 0.3s ease, transform 0.3s ease;

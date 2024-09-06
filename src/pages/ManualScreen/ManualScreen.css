@@ -62,10 +62,30 @@
     text-align: left; /* Align text to the left */
 }
 
-ul, ol {
-    padding-left: 20px; /* Add indentation */
+.paper {
+  background-color: #fff; /* or any background color */
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-ul li {
-    margin-bottom: 10px; /* Add space between list items */
+.back-button button {
+  margin-bottom: 20px;
+  /* other button styles */
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.paper > div {
+  text-align: left;
+}
+
+.paper p, .paper h2 {
+  margin: 0;
 }

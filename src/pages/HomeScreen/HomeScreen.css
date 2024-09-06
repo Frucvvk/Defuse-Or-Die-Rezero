@@ -92,4 +92,21 @@
       width: 200px;
     }
   }
+
+  body {
+    position: relative; /* Ensure proper layering */
+  }
+  
+  body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1; /* Make sure it stays behind the content */
+    background: radial-gradient(circle at center, rgba(2, 101, 2, 0.775), rgb(5, 48, 5));
+    filter: blur(2px); /* Apply blur to background only */
+    transform: scale(1.1); /* Slightly enlarge the background to account for blur */
+  }
   

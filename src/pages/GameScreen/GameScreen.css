@@ -282,17 +282,17 @@ body::before {
 }
 
 .menu-button .line:nth-child(1) {
-  top: 1.2vh; /* Position of the first line from the top */
+  top: 1.5vh; /* Position of the first line from the top */
   z-index: 1001;
 }
 
 .menu-button .line:nth-child(2) {
-  top: 3vh; /* Position of the second line from the top */
+  top: 3.5vh; /* Position of the second line from the top */
   z-index: 1001;
 }
 
 .menu-button .line:nth-child(3) {
-  top: 4.8vh; /* Position of the third line from the top */
+  top: 5.5vh; /* Position of the third line from the top */
   z-index: 1001;
 }
 
@@ -344,7 +344,7 @@ body::before {
 }
 
 .resume{
-  width: 7vw;
+  width: 10vw;
   height: 5vh;
   background-color: #0f1a11;
   transition: background-color 0.3s ease, transform 0.3s ease;
@@ -355,7 +355,7 @@ body::before {
 }
 
 .restart{
-  width: 7vw;
+  width: 10vw;
   height: 5vh;
   background-color: #0f1a11;
   transition: background-color 0.3s ease, transform 0.3s ease;

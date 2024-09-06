@@ -5,6 +5,7 @@ import HomeScreen from "./HomeScreen";
 import GameScreen from "./GameScreen";
 import ResultScreen from "./ResultScreen";
 import { Route, Routes } from "react-router-dom";
+import ManualScreen from "./ManualScreen/ManualScreen";
 
 const MainPage = () => {
   const [gameState, setGameState] = useState<'home' | 'playing' | 'result'>('home');
@@ -18,10 +19,13 @@ const MainPage = () => {
   };
 
   return (
-    <Routes> 
+    <Routes>
       <Route path="/" element={<HomeScreen onStart={startGame} />} />
-      <Route path="/game" element={<GameScreen onEnd={endGame} />} /> 
-      <Route path="/result" element={result && <ResultScreen result={result} onRestart={() => setGameState('home')} />} /> 
+      <Route path="/game" element={<GameScreen onEnd={endGame} />} />
+      <Route path="/result" element={result && <ResultScreen result={result} onRestart={() => setGameState('home')} />} />
+      <Route path="/manual" element={<ManualScreen />} />
+
+      <Route path="*" element={<HomeScreen onStart={startGame} />} />
     </Routes>
   );
 };

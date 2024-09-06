@@ -10,6 +10,7 @@
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 8px; /* Rounded corners */
+  border: none;
   cursor: pointer; /* Pointer cursor on hover */
   display: flex;
   z-index: 1000;

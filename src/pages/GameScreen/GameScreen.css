@@ -244,8 +244,8 @@ body::before {
 /* Menu Button Styles */
 .menu-button {
   position: fixed; /* Fixed positioning to stay in place relative to the viewport */
-  top: 20px; /* Adjust vertical position */
-  right: 20px; /* Adjust horizontal position */
+  top: 0px; /* Adjust vertical position */
+  left: 1500px; /* Adjust horizontal position */
   width: 50px; /* Width of the button */
   height: 50px; /* Height of the button */
   background-color: #6c6c6c; /* Background color of the button */

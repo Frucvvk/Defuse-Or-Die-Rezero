@@ -17,6 +17,5 @@ function ManualScreen() {
     );
 }
 
-// test
 
 export default ManualScreen;

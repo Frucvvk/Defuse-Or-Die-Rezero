@@ -43,3 +43,14 @@
     font-size: 1.1rem;
     line-height: 1.6;
   }
+  .codes-section, .serial-number-list {
+    text-align: left; /* Align text to the left */
+}
+
+ul, ol {
+    padding-left: 20px; /* Add indentation */
+}
+
+ul li {
+    margin-bottom: 10px; /* Add space between list items */
+}

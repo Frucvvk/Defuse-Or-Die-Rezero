@@ -60,75 +60,76 @@ const Manual: React.FC = () => {
 <strong>Code 3</strong>:
 <li>Pull out com_capacitor1.</li>
 <strong>Code 4</strong>:
-<li>Switch off Switch Button 2.</li>
+<li>Enter “101” and Press the Big button once and Switch off Switch Button 2 when the timer has 1 in it.</li>
 <strong>Code 6</strong>:
 <li>Pull out com_resistor2.</li>
 <strong>Code 9</strong>:
-<li>If PASS status has 3 green lights, press the Big Button once.if not press the Big button twice.</li>
+<li>Press the Big button twice.</li>
 <strong>Code 25</strong>:
-<li>Pull out Fuse 2.</li>
-<li>Press the Big Button once.</li>
+<li>Pull out Fuse 2 .</li>
+<li>Press the Big Button once with in 9 second.</li>
 <strong>Code 37</strong>:
 <li>Cut the red wire.</li>
-<li>Switch on Switch Button 1.</li>
+<li>Press the Big button once and Switch on Switch Button 1.</li>
 <strong>Code 46</strong>:
 <li>Pull out Battery 1.</li>
-<li>If the Strike status has 1 red light, press the Big Button twice. If not, press the Big button forth.</li>
+<li>press the Big button forth times.</li>
 <strong>Code 59</strong>:
 <li>Pull out com_transistor_brown.</li>
-<li>Turn off Switch Button 2.</li>
+<li>Enter”173” and Turn off Switch Button 2 when the timer has 0 in it.</li>
 </>,<><strong>Code 78:</strong>
 <li>Enter "0106" on the Keypad.</li>
 <li>Press the Big Button once.</li>
 <strong>Code 93:</strong>
-<li>If the Serial Number ends with "C", pull out com_transistor blue. If not, turn on Switch Button 1.</li>
-<li>Press the Big Button once.</li>
+<li>pull out com_transistor blue</li>
+<li>Press the Big Button once with in 8 second.</li>
 <strong>Code 112:</strong>
 <li>Pull out chip-main.</li>
 <li>Press the Big Button once.</li>
 <li>Cut the yellow wire.</li>
 <strong>Code 200:</strong>
-<li>If the Serial Number ends with "A", pull out com_capacitor2. If not Enter “19101” in keypad</li>
 <li>Press the Big Button twice.</li>
-<li>Switch off Switch Button 1.</li>
+<li>If the Serial Number ends with "A", pull out com_capacitor2. If not Enter “19101” in keypad</li>
+<li>Enter “01101” and Switch off Switch Button 1.</li>
 <strong>Code 375:</strong>
 <li>Pull out Fuse 3.</li>
-<li>Cut the blue wire.</li>
+<li>Cut the blue wire with in 5 second.</li>
 <li>Press the Big Button once.</li>
 <strong>Code 692:</strong>
 <li>Enter "2547" on the Keypad.</li>
 <li>Pull out com_transistor_black.</li>
-<li>Press the Big Button once.</li>
+<li>Press the Big Button once when the timer has 8 in it.</li>
 </>,<><strong>Code 823:</strong>
-<li>If PASS status has 4 green lights, press the Big Button once. If not Enter ”8462” and press the Big button three times</li>
 <li>Pull out chip-small.</li>
-<li>Switch on Switch Button 1.</li>
+<li>Enter ”8462” on keypad</li>
+<li>“Press button once” and Switch on Switch Button 1.</li>
 <strong>Code 1124:</strong>
 <li>Pull out Battery 2.</li>
-<li>Cut the pink wire.</li>
+<li>Cut the pink wire when the timer has 5 in it.</li>
 <li>Press the Big Button twice.</li>
-<li>Turn off Switch Button 2.</li>
+<li>Enter “458” Turn off Switch Button 2.</li>
 <strong>Code 3333:</strong>
-<li>If the Serial Number starts with "B", pull out Fuse 1.If not, turn off Switch Button 1 and Enter "5322" on the Keypad.</li>
-<li>Cut the green wire.</li>
+<li>Button 1 and Enter "5322" on the Keypad.</li>
+<li>If the Serial Number end with "B", pull out Fuse 1.If not,Press button twice and turn off Switch </li>
+<li>Cut the green wire with in 4 second.</li>
 <li>Enter "2235" on the Keypad.</li>
 <li>Press the Big Button once.</li>
 <strong>Code 5423:</strong>
 <li>Pull out com_capacitor3.</li>
-<li>Switch on Switch Button 1.</li>
+<li>Enter “2345” and Switch on Switch Button 1.</li>
 <li>Cut the yellow wire.</li>
 <li>Press the Big Button once.</li>
 <strong>Code 6584:</strong>
 <li>Enter "2580" on the Keypad.</li>
-<li>Pull out chip-big.</li>
-<li>Turn off Switch Button 1.</li>
+<li>Pull out chip-big with in 5 second.</li>
+<li>Enter “1” and Turn off Switch Button 1.</li>
 <li>Press the Big Button twice.</li>
 </>,<>
 <strong>Code 8796:</strong>
 <li>Pull out com_resistor1.</li>
 <li>Press the Big Button three times.</li>
-<li>Cut the red wire.</li>
-<li>Switch off Switch Button 2.</li>
+<li>Cut the red wire when the timer has 2 in it.</li>
+<li>Press the big button four times and Switch off Switch Button 2.</li>
 </>
   ];
 

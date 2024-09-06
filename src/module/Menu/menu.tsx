@@ -33,9 +33,8 @@ const Menu: React.FC = () => {
   return (
     <>
       {/* Game content */}
-      <div className={`game-content ${isMenuOpen ? 'blur-background' : ''}`}>
-        <div className="menu-button" onClick={handleMenuClick}></div>
-      </div>
+      <div className={`game-content ${isMenuOpen ? 'blur-background' : ''}`}></div>
+        <button className="menu-button" onClick={handleMenuClick}></button>
       {/* Modal */}
       {isMenuOpen && (
         <div className="modal-overlay">

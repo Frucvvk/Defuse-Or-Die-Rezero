@@ -8,7 +8,7 @@
     gap: 10px;
     padding: 20px;
     background: linear-gradient(145deg, #303030, #454545); /* Almost black background for keypad */
-    border-radius: 15px;
+    border-radius: 3px;
     box-sizing: border-box;
 }
 
@@ -18,7 +18,7 @@
     align-items: center;
     font-size: 1.5rem;
     border: 2px solid #444; /* Darker gray border */
-    border-radius: 10px;
+    border-radius: 3px;
     color: #fff; /* White text color */
     background-color: #555; /* Dark gray background */
     font-family: "Play", sans-serif;

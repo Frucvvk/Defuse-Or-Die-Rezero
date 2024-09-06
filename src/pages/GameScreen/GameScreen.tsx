@@ -10,39 +10,6 @@ type Probs = {
   onEnd: (outcome: 'win' | 'lose') => void
 }
 function GameScreen({ onEnd }: Probs) {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isManualOpen, setIsManualOpen] = useState(false);
-  const [currentPage, setCurrentPage] = useState(0);
-  const manualPages = [
-    `Welcome to the Bomb Game Manual! This game tests your skills in defusing bombs. \nBe careful, each decision counts asdfasdfasdfas`,
-    "Page 2: Instructions on defusing the bomb. You will see wires, buttons, and timers. Follow the correct sequence to defuse it.",
-    "Page 3: Time is critical. You must make decisions fast but carefully. One wrong cut could end the game!",
-    "Page 4: If you're unsure of what to do, use the manual. It contains detailed instructions for each bomb type.",
-    "Page 5: Good luck! Keep calm and defuse the bomb!"
-  ];
-
-   const handleManualClick = () => {
-    setIsManualOpen(true);
-  };
-
-  const handleCloseManual = () => {
-    setIsManualOpen(false);
-  };
-
-  const handleNextPage = () => {
-    if (currentPage < manualPages.length - 1) {
-      setCurrentPage(currentPage + 1);
-    }
-  };
-
-  // Navigate to the previous page
-  const handlePreviousPage = () => {
-    if (currentPage > 0) {
-      setCurrentPage(currentPage - 1);
-    }
-  };
-
-
   
   return (
     <>

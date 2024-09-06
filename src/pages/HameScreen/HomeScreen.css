@@ -44,10 +44,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 0.3s ease, transform 0.3s ease
   }
   
   button:hover {
     background-color: #cacaca;
+    transform: scale(1.05);
   }
   
   .play-button {

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
+import './Manual.css'
 
 const Manual: React.FC = () => {
-    const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isManualOpen, setIsManualOpen] = useState(false);
   const [currentPage, setCurrentPage] = useState(0);
   const manualPages = [

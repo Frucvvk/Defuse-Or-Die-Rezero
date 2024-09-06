@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Menu: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -44,11 +45,13 @@ const Menu: React.FC = () => {
           <div className="modal">
             <h2>Menu</h2>
             <button 
-            className="resume" onClick={handleResume}>Resume</button>
-            <button 
+            className="resume" onClick={handleResume}>Resume</button>         
+            <button     
             className="restart" onClick={handleRestart}>Restart</button>
+            <Link to="/HomeScreen">
             <button 
             className="menu"  onClick={handleMainMenu}>Main Menu</button>
+            </Link>
           </div>
         </div>
       )}

@@ -68,7 +68,7 @@
 }
 
 .resume{
-  width: 7vw;
+  width: 10vw;
   height: 5vh;
   background-color: #0f1a11;
   transition: background-color 0.3s ease, transform 0.3s ease;
@@ -79,7 +79,7 @@
 }
 
 .restart{
-  width: 7vw;  
+  width: 10vw;  
   height: 5vh;
   background-color: #0f1a11;
   transition: background-color 0.3s ease, transform 0.3s ease;
@@ -89,7 +89,7 @@
   transform: scale(1.05); /* Slightly enlarge the button */
 }
 .menu{
-  width: 7vw;
+  width: 10vw;
   height: 5vh;
   background-color: #0f1a11;
   transition: background-color 0.3s ease, transform 0.3s ease;

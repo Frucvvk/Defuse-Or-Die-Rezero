@@ -9,7 +9,8 @@ function ManualScreen() {
             </Link>
 
             <div className="paper">
-            <>Welcome to the Defuse or Die Game Manual! This game tests your skills in defusing bombs. Be careful, each decision counts 
+                <h1>Manual Defuse or Die!!!</h1>
+            <p>Welcome to the Defuse or Die Game Manual! This game tests your skills in defusing bombs. Be careful, each decision counts 
     <br /><br />
     Instructions on defusing the bomb. You will see wires, buttons, and timers. Follow the correct sequence to defuse it.
     <br /><br />
@@ -17,8 +18,8 @@ function ManualScreen() {
     <br /><br />
     If you're unsure of what to do, use the manual. It contains detailed instructions for each bomb type.
     <br /><br />
-    Good luck! Keep calm and defuse the bomb! </>,
-    <><h2><strong>serial number</strong></h2>
+    Good luck! Keep calm and defuse the bomb!</p>
+    <p><h2><strong>serial number</strong></h2>
     1. SN.55-81-32-23 
     <br />
     2. SN.44-21-23-4A  
@@ -58,8 +59,9 @@ function ManualScreen() {
     19. SN.19-48-45-45   
     <br />
     20. SN.15-00-01-3A 
-    <br />
-  </>,<><strong>Code 1</strong>: 
+    <br /></p>
+<h4><p>
+  <strong>Code 1</strong>: 
 <li>Press the Big Button once.</li>
 <strong>Code 3</strong>:
 <li>Pull out com_capacitor1.</li>
@@ -81,7 +83,7 @@ function ManualScreen() {
 <strong>Code 59</strong>:
 <li>Pull out com_transistor_brown.</li>
 <li>Turn off Switch Button 2.</li>
-</>,<><strong>Code 78:</strong>
+<strong>Code 78:</strong>
 <li>Enter "0106" on the Keypad.</li>
 <li>Press the Big Button once.</li>
 <strong>Code 93:</strong>
@@ -103,7 +105,7 @@ function ManualScreen() {
 <li>Enter "2547" on the Keypad.</li>
 <li>Pull out com_transistor_black.</li>
 <li>Press the Big Button once.</li>
-</>,<><strong>Code 823:</strong>
+<strong>Code 823:</strong>
 <li>If PASS status has 4 green lights, press the Big Button once. If not Enter ”8462” and press the Big button three times</li>
 <li>Pull out chip-small.</li>
 <li>Switch on Switch Button 1.</li>
@@ -127,13 +129,12 @@ function ManualScreen() {
 <li>Pull out chip-big.</li>
 <li>Turn off Switch Button 1.</li>
 <li>Press the Big Button twice.</li>
-</>,<>
 <strong>Code 8796:</strong>
 <li>Pull out com_resistor1.</li>
 <li>Press the Big Button three times.</li>
 <li>Cut the red wire.</li>
 <li>Switch off Switch Button 2.</li>
-</>
+</p></h4>
             </div>
         </div>
     );

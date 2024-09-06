@@ -32,8 +32,12 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     overflow: auto;
+    text-align: left;
   }
-  
+  .paper h4{
+    text-align: left;
+  }
+
   .paper h1 {
     text-align: center;
     margin-bottom: 1rem;
@@ -42,6 +46,17 @@
   .paper p {
     font-size: 1.1rem;
     line-height: 1.6;
+    text-align: center;
+  }
+    .paper p:nth-child(1) {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: left;
+  }
+      .paper p:nth-child(2) {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: left;
   }
   .codes-section, .serial-number-list {
     text-align: left; /* Align text to the left */
